@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: spring-rag
-          image: docker.io/${{ secrets.DOCKER_USERNAME }}/spring-rag:latest
+          image: docker.io/nautuan/spring-rag:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
