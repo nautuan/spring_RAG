@@ -105,7 +105,7 @@ jobs:
         run: kubectl get nodes
       - name: Deploy the image to minikube
         run: |
-          docker pull ${{ secrets.DOCKER_USERNAME }}/spring-rag:latest
+          docker pull nautuan/spring-rag:latest
           kubectl apply -f src/main/k8s/deployment.yml
       - name: Get Kubernetes service URL
         run: |
