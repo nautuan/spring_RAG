@@ -14,7 +14,7 @@ import fr.efrei.rag.repository.DocumentRepository;
 public class DocumentResource {
 
     private final DocumentRepository documentRepository;
-
+    // test
     public DocumentResource(DocumentRepository documentRepository) {
         this.documentRepository = documentRepository;
     }
